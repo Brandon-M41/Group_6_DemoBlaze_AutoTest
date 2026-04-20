@@ -1,0 +1,2 @@
+-This is a README file to initialize Katalon Project
+-Brandon Mair completed the test cases for Products, the instructions should be in the test case descriptions.
