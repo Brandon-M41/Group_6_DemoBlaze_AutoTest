@@ -1,0 +1,212 @@
+2026-04-20 17:40:24.267 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\cyber\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-20 17:40:24.281 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\cyber\git\Group_6_DemoBlaze_AutoTest\Include\config\log.properties
+2026-04-20 17:40:26.960 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Daniel_Login_Chrome
+2026-04-20 17:40:27.415 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cyberxplays YT
+2026-04-20 17:40:27.419 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Group_6_DemoBlaze_AutoTest
+2026-04-20 17:40:27.422 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = cyber - DaniWorkLaptop
+2026-04-20 17:40:27.425 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-20 17:40:27.427 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.191.1
+2026-04-20 17:40:27.430 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-20 17:40:28.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 17:40:28.049 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Login_001
+2026-04-20 17:40:29.270 DEBUG testcase.TC_Login_001                    - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 17:40:30.448 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 17:40:30.622 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 17:40:34.487 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6df4b43131431c124f36023ef61e48f1
+2026-04-20 17:40:34.488 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.56
+2026-04-20 17:40:34.489 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 17:40:34.490 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 17:40:34.498 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 17:40:34.952 DEBUG testcase.TC_Login_001                    - 2: click(findTestObject("Page_STORE/Page_STORE/btn_Login"))
+2026-04-20 17:40:36.457 DEBUG testcase.TC_Login_001                    - 3: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginUsername"), "Coober")
+2026-04-20 17:40:37.569 DEBUG testcase.TC_Login_001                    - 4: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginPassword"), "123")
+2026-04-20 17:40:38.570 DEBUG testcase.TC_Login_001                    - 5: click(findTestObject("Page_STORE/Page_STORE/btn_SubmitLogin"))
+2026-04-20 17:40:39.054 DEBUG testcase.TC_Login_001                    - 6: verifyElementPresent(findTestObject("Page_STORE/Page_STORE/lbl_WelcomeUser"), 0)
+2026-04-20 17:40:39.101 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-04-20 17:40:40.176 DEBUG testcase.TC_Login_001                    - 7: closeBrowser()
+2026-04-20 17:40:40.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Login_001
+2026-04-20 17:40:40.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 17:40:40.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Login_002
+2026-04-20 17:40:40.551 DEBUG testcase.TC_Login_002                    - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 17:40:40.556 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 17:40:40.559 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 17:40:41.562 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d00e0d56bc88e6319867ee91cf2a06ac
+2026-04-20 17:40:41.563 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.56
+2026-04-20 17:40:41.564 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 17:40:41.564 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 17:40:41.566 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 17:40:41.944 DEBUG testcase.TC_Login_002                    - 2: click(findTestObject("Page_STORE/Page_STORE/btn_Login"))
+2026-04-20 17:40:42.943 DEBUG testcase.TC_Login_002                    - 3: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginUsername"), "Coober")
+2026-04-20 17:40:43.883 DEBUG testcase.TC_Login_002                    - 4: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginPassword"), "wrongpassword")
+2026-04-20 17:40:44.593 DEBUG testcase.TC_Login_002                    - 5: click(findTestObject("Page_STORE/Page_STORE/btn_SubmitLogin"))
+2026-04-20 17:40:44.973 DEBUG testcase.TC_Login_002                    - 6: verifyElementPresent(findTestObject("Page_STORE/Page_STORE/lbl_WelcomeUser"), 0)
+2026-04-20 17:40:44.978 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-04-20 17:40:55.012 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-04-20 17:40:55.016 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Page_STORE/Page_STORE/lbl_WelcomeUser' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_STORE/Page_STORE/lbl_WelcomeUser' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Login_002.run(TC_Login_002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=147.0.7727.56): Wrong password.
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [d00e0d56bc88e6319867ee91cf2a06ac, findElements {using=xpath, value=//a[@id='nameofuser']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\cyber\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, goog:processID: 19776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:44459/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d00e0d56bc88e6319867ee91cf2a06ac
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:391)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4lxbJrTC.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:118)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:115)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Script1776720134465.run(Script1776720134465.groovy:30)
+	... 13 more
+)
+2026-04-20 17:40:55.024 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Login_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_STORE/Page_STORE/lbl_WelcomeUser' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Login_002.run(TC_Login_002:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
+  (Session info: chrome=147.0.7727.56): Wrong password.
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [d00e0d56bc88e6319867ee91cf2a06ac, findElements {using=xpath, value=//a[@id='nameofuser']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\cyber\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, goog:processID: 19776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:44459/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d00e0d56bc88e6319867ee91cf2a06ac
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:391)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4lxbJrTC.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:118)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:115)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-04-20 17:40:55.030 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Login_002
+2026-04-20 17:40:55.036 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 17:40:55.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Login_002 - Retry attempt 1
+2026-04-20 17:40:55.055 DEBUG testcase.TC_Login_002                    - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 17:40:55.057 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-20 17:40:55.304 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 17:40:55.309 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 17:40:56.275 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a4e246daeeb220098dad70b067b2f9db
+2026-04-20 17:40:56.276 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.56
+2026-04-20 17:40:56.276 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 17:40:56.276 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 17:40:56.277 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 17:40:56.669 DEBUG testcase.TC_Login_002                    - 2: click(findTestObject("Page_STORE/Page_STORE/btn_Login"))
+2026-04-20 17:40:58.047 DEBUG testcase.TC_Login_002                    - 3: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginUsername"), "Coober")
+2026-04-20 17:40:59.008 DEBUG testcase.TC_Login_002                    - 4: setText(findTestObject("Page_STORE/Page_STORE/txt_LoginPassword"), "wrongpassword")
+2026-04-20 17:40:59.683 DEBUG testcase.TC_Login_002                    - 5: click(findTestObject("Page_STORE/Page_STORE/btn_SubmitLogin"))
+2026-04-20 17:41:00.060 DEBUG testcase.TC_Login_002                    - 6: verifyElementPresent(findTestObject("Page_STORE/Page_STORE/lbl_WelcomeUser"), 0)
+2026-04-20 17:41:00.064 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-04-20 17:41:10.259 DEBUG testcase.TC_Login_002                    - 7: closeBrowser()
+2026-04-20 17:41:10.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Login_002
+2026-04-20 17:41:10.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 17:41:10.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Login_003
+2026-04-20 17:41:10.637 DEBUG testcase.TC_Login_003                    - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 17:41:10.640 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 17:41:10.642 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 17:41:11.649 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ba819beb454a26c4ef0a086e6b5b22ea
+2026-04-20 17:41:11.651 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.56
+2026-04-20 17:41:11.651 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 17:41:11.652 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 17:41:11.653 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 17:41:12.117 DEBUG testcase.TC_Login_003                    - 2: click(findTestObject("Page_STORE/Page_STORE/btn_Login"))

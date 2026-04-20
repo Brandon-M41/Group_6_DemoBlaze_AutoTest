@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify username is displayed in the navigation bar after successful login</description>
+   <name>TC_Login_006</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3270fa00-7436-481c-ac69-04730ea08b63</testCaseGuid>
+</TestCaseEntity>

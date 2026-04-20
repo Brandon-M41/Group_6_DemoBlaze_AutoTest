@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify error message appears when logging in with both username and password fields empty</description>
+   <name>TC_Login_004</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>078cce81-4446-45f9-8215-44e2deed75ad</testCaseGuid>
+</TestCaseEntity>

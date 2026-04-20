@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify error message appears when logging in with non-existent username</description>
+   <name>TC_Login_003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8913237d-8b79-47ee-86bf-3c197a17a69a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Daniel_Login_Edge,Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:43,20-04-2026 17:54:06,3m - 22.597s,FAILED
+,,,,,,,
+Test Cases/TC_Login_001,Edge Chromium 147.0.3912.72,Verify user can log in successfully with valid username and password,,20-04-2026 17:50:43,20-04-2026 17:50:52,8.893s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:44,20-04-2026 17:50:48,4.031s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:48,20-04-2026 17:50:49,1.085s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:49,20-04-2026 17:50:50,0.946s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:50,20-04-2026 17:50:51,0.700s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:51,20-04-2026 17:50:51,0.353s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:51,20-04-2026 17:50:52,1.115s,PASSED
+closeBrowser(),Edge Chromium 147.0.3912.72,,,20-04-2026 17:50:52,20-04-2026 17:50:52,0.232s,PASSED
+,,,,,,,
+Test Cases/TC_Login_002,Edge Chromium 147.0.3912.72,Verify error message appears when logging in with incorrect password,,20-04-2026 17:51:36,20-04-2026 17:51:51,14.637s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:36,20-04-2026 17:51:38,1.585s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:38,20-04-2026 17:51:39,1.110s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:39,20-04-2026 17:51:40,0.894s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""wrongpassword"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:40,20-04-2026 17:51:40,0.638s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:40,20-04-2026 17:51:41,0.374s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:51:41,20-04-2026 17:51:51,10.019s,FAILED
+,,,,,,,
+Test Cases/TC_Login_003,Edge Chromium 147.0.3912.72,Verify error message appears when logging in with non-existent username,,20-04-2026 17:52:34,20-04-2026 17:52:49,14.520s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:34,20-04-2026 17:52:36,1.545s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:36,20-04-2026 17:52:37,1.013s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""FakeCoober"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:37,20-04-2026 17:52:38,0.898s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:38,20-04-2026 17:52:39,0.680s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:39,20-04-2026 17:52:39,0.361s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:52:39,20-04-2026 17:52:49,10.007s,FAILED
+,,,,,,,
+Test Cases/TC_Login_004,Edge Chromium 147.0.3912.72,Verify error message appears when logging in with both username and password fields empty,,20-04-2026 17:53:34,20-04-2026 17:53:49,15.363s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:34,20-04-2026 17:53:36,2.192s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:36,20-04-2026 17:53:37,1.050s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), """")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:37,20-04-2026 17:53:38,1.008s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), """")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:38,20-04-2026 17:53:39,0.734s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:39,20-04-2026 17:53:39,0.350s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:39,20-04-2026 17:53:49,10.012s,FAILED
+,,,,,,,
+Test Cases/TC_Login_005,Edge Chromium 147.0.3912.72,Verify user can log out successfully after logging in,,20-04-2026 17:53:49,20-04-2026 17:53:59,9.756s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:50,20-04-2026 17:53:51,1.814s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:51,20-04-2026 17:53:52,1.001s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:52,20-04-2026 17:53:53,0.870s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:53,20-04-2026 17:53:54,0.663s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:54,20-04-2026 17:53:54,0.346s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:54,20-04-2026 17:53:55,1.192s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/Page_STORE/btn_Logout""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:55,20-04-2026 17:53:56,0.577s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/btn_Login""), 0)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:56,20-04-2026 17:53:57,0.793s,PASSED
+closeBrowser(),Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:57,20-04-2026 17:53:59,2.442s,PASSED
+,,,,,,,
+Test Cases/TC_Login_006,Edge Chromium 147.0.3912.72,Verify username is displayed in the navigation bar after successful login,,20-04-2026 17:53:59,20-04-2026 17:54:06,6.352s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:53:59,20-04-2026 17:54:01,1.673s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:01,20-04-2026 17:54:02,1.017s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:02,20-04-2026 17:54:03,0.984s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:03,20-04-2026 17:54:04,0.712s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:04,20-04-2026 17:54:04,0.329s,PASSED
+"verifyTextPresent(""Welcome Coober"", true)",Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:04,20-04-2026 17:54:05,1.280s,PASSED
+closeBrowser(),Edge Chromium 147.0.3912.72,,,20-04-2026 17:54:05,20-04-2026 17:54:06,0.273s,PASSED

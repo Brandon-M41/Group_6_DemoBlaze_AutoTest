@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Daniel_Login_Chrome,Chrome 147.0.7727.56,,,20-04-2026 17:46:39,20-04-2026 17:50:00,3m - 21.231s,FAILED
+,,,,,,,
+Test Cases/TC_Login_001,Chrome 147.0.7727.56,Verify user can log in successfully with valid username and password,,20-04-2026 17:46:39,20-04-2026 17:46:49,9.956s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:46:39,20-04-2026 17:46:43,3.340s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:46:43,20-04-2026 17:46:44,1.443s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Chrome 147.0.7727.56,,,20-04-2026 17:46:44,20-04-2026 17:46:45,1.011s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Chrome 147.0.7727.56,,,20-04-2026 17:46:45,20-04-2026 17:46:46,0.752s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:46:46,20-04-2026 17:46:46,0.377s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:46:46,20-04-2026 17:46:49,2.370s,PASSED
+closeBrowser(),Chrome 147.0.7727.56,,,20-04-2026 17:46:49,20-04-2026 17:46:49,0.272s,PASSED
+,,,,,,,
+Test Cases/TC_Login_002,Chrome 147.0.7727.56,Verify error message appears when logging in with incorrect password,,20-04-2026 17:47:33,20-04-2026 17:47:48,14.921s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:47:33,20-04-2026 17:47:35,1.523s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:47:35,20-04-2026 17:47:36,1.057s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Chrome 147.0.7727.56,,,20-04-2026 17:47:36,20-04-2026 17:47:37,0.953s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""wrongpassword"")",Chrome 147.0.7727.56,,,20-04-2026 17:47:37,20-04-2026 17:47:38,0.867s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:47:38,20-04-2026 17:47:38,0.492s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:47:38,20-04-2026 17:47:48,10.011s,FAILED
+,,,,,,,
+Test Cases/TC_Login_003,Chrome 147.0.7727.56,Verify error message appears when logging in with non-existent username,,20-04-2026 17:48:33,20-04-2026 17:48:47,14.714s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:48:33,20-04-2026 17:48:34,1.498s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:48:34,20-04-2026 17:48:35,1.063s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""FakeCoober"")",Chrome 147.0.7727.56,,,20-04-2026 17:48:35,20-04-2026 17:48:36,0.951s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Chrome 147.0.7727.56,,,20-04-2026 17:48:36,20-04-2026 17:48:37,0.751s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:48:37,20-04-2026 17:48:37,0.420s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:48:37,20-04-2026 17:48:47,10.013s,FAILED
+,,,,,,,
+Test Cases/TC_Login_004,Chrome 147.0.7727.56,Verify error message appears when logging in with both username and password fields empty,,20-04-2026 17:49:32,20-04-2026 17:49:46,14.482s,FAILED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:32,20-04-2026 17:49:33,1.597s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:33,20-04-2026 17:49:34,0.997s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), """")",Chrome 147.0.7727.56,,,20-04-2026 17:49:34,20-04-2026 17:49:35,0.878s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), """")",Chrome 147.0.7727.56,,,20-04-2026 17:49:35,20-04-2026 17:49:36,0.635s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:36,20-04-2026 17:49:36,0.346s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:49:36,20-04-2026 17:49:46,10.014s,FAILED
+,,,,,,,
+Test Cases/TC_Login_005,Chrome 147.0.7727.56,Verify user can log out successfully after logging in,,20-04-2026 17:49:46,20-04-2026 17:49:53,7.439s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:46,20-04-2026 17:49:48,1.636s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:48,20-04-2026 17:49:49,1.000s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:49,20-04-2026 17:49:50,0.901s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:50,20-04-2026 17:49:50,0.641s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:50,20-04-2026 17:49:51,0.336s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/lbl_WelcomeUser""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:49:51,20-04-2026 17:49:52,1.275s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/Page_STORE/btn_Logout""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:52,20-04-2026 17:49:52,0.471s,PASSED
+"verifyElementPresent(findTestObject(""Page_STORE/Page_STORE/btn_Login""), 0)",Chrome 147.0.7727.56,,,20-04-2026 17:49:52,20-04-2026 17:49:53,0.795s,PASSED
+closeBrowser(),Chrome 147.0.7727.56,,,20-04-2026 17:49:53,20-04-2026 17:49:53,0.273s,PASSED
+,,,,,,,
+Test Cases/TC_Login_006,Chrome 147.0.7727.56,Verify username is displayed in the navigation bar after successful login,,20-04-2026 17:49:53,20-04-2026 17:50:00,6.389s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:53,20-04-2026 17:49:55,1.307s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_Login""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:55,20-04-2026 17:49:56,1.535s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginUsername""), ""Coober"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:56,20-04-2026 17:49:57,0.913s,PASSED
+"setText(findTestObject(""Page_STORE/Page_STORE/txt_LoginPassword""), ""123"")",Chrome 147.0.7727.56,,,20-04-2026 17:49:57,20-04-2026 17:49:58,0.685s,PASSED
+"click(findTestObject(""Page_STORE/Page_STORE/btn_SubmitLogin""))",Chrome 147.0.7727.56,,,20-04-2026 17:49:58,20-04-2026 17:49:58,0.387s,PASSED
+"verifyTextPresent(""Welcome Coober"", true)",Chrome 147.0.7727.56,,,20-04-2026 17:49:58,20-04-2026 17:50:00,1.264s,PASSED
+closeBrowser(),Chrome 147.0.7727.56,,,20-04-2026 17:50:00,20-04-2026 17:50:00,0.246s,PASSED

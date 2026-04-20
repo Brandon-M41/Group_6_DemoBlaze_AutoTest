@@ -1,0 +1,21 @@
+2026-04-20 17:41:42.863 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\cyber\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-20 17:41:42.878 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\cyber\git\Group_6_DemoBlaze_AutoTest\Include\config\log.properties
+2026-04-20 17:41:45.574 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_BrandonMair_Prod_Edge
+2026-04-20 17:41:45.739 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cyberxplays YT
+2026-04-20 17:41:45.741 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Group_6_DemoBlaze_AutoTest
+2026-04-20 17:41:45.741 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = cyber - DaniWorkLaptop.home
+2026-04-20 17:41:45.742 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-20 17:41:45.743 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.132
+2026-04-20 17:41:45.744 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-20 17:41:45.931 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 17:41:45.931 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_001
+2026-04-20 17:41:46.330 DEBUG testcase.TC_Prod_001                     - 1: openBrowser("")
+2026-04-20 17:41:46.718 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 17:41:46.814 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 17:41:49.177 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1caf67f81b56012ede89d35c761e06dd
+2026-04-20 17:41:49.178 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.56
+2026-04-20 17:41:49.179 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 17:41:49.180 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 17:41:49.187 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 17:41:49.261 DEBUG testcase.TC_Prod_001                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-20 17:41:49.481 DEBUG testcase.TC_Prod_001                     - 3: click(findTestObject("Page_STORE/a_itemc"))

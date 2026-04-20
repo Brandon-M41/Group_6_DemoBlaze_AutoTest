@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify error message appears when logging in with incorrect password</description>
+   <name>TC_Login_002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fae88b51-b7b8-4bcf-a6b7-f91aca1a2fe2</testCaseGuid>
+</TestCaseEntity>
