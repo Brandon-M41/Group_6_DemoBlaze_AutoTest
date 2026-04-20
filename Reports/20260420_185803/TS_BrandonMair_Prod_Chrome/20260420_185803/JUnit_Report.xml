@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_BrandonMair_Prod_Chrome" time="22.63" tests="5" failures="0" errors="0">
+   <testsuite name="TS_BrandonMair_Prod_Chrome" tests="5" failures="0" errors="0" time="22.63" skipped="0" timestamp="2026-04-20T22:58:15.946Z" hostname="kagev - Kenzoku" id="Test Suites/TS_BrandonMair_Prod_Chrome">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\kagev\\Katalon Studio\\DemoBlaze_AutoTest\\Reports\\20260420_185803\\TS_BrandonMair_Prod_Chrome\\20260420_185803"/>
+         <property name="logFiles" value="C:\\Users\\kagev\\Katalon Studio\\DemoBlaze_AutoTest\\Reports\\20260420_185803\\TS_BrandonMair_Prod_Chrome\\20260420_185803\\console0.log, C:\\Users\\kagev\\Katalon Studio\\DemoBlaze_AutoTest\\Reports\\20260420_185803\\TS_BrandonMair_Prod_Chrome\\20260420_185803\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="kagev - Kenzoku"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 147.0.7727.102"/>
+         <property name="userFullName" value="Foreign Kenzoku"/>
+         <property name="hostAddress" value="25.35.141.170"/>
+         <property name="sessionId" value="b2c2e80934d983ba8337877ad0d4073e"/>
+         <property name="projectName" value="DemoBlaze_AutoTest"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Reg_001" time="5.721" classname="Test Cases/TC_Reg_001" status="PASSED">
+         <system-out><![CDATA[20-04-2026T18:58:16 - [TEST_CASE][PASSED] - Test Cases/TC_Reg_001: Test Cases/TC_Reg_001
+
+20-04-2026T18:58:16 - [TEST_STEP][PASSED] - openBrowser("https://www.demoblaze.com"): Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-04-2026T18:58:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-04-2026T18:58:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_Sign up")): Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Username_sign-username"), "3y5iohjgwrbsn"): Text '3y5iohjgwrbsn' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:20 - [MESSAGE][PASSED] - Text '3y5iohjgwrbsn' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel"): Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:20 - [MESSAGE][PASSED] - Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/button_Sign up")): Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - alertMessage = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'Sign up successful.'
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Get alert text successfully: 'Sign up successful.'
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - verifyMatch(alertMessage, ".*Sign up successful.*", true): Actual text 'Sign up successful.' and expected text '.*Sign up successful.*' are matched  using regular expression
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Actual text 'Sign up successful.' and expected text '.*Sign up successful.*' are matched  using regular expression
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Alert accepted
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2026T18:58:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Reg_002" time="4.608" classname="Test Cases/TC_Reg_002" status="PASSED">
+         <system-out><![CDATA[20-04-2026T18:58:21 - [TEST_CASE][PASSED] - Test Cases/TC_Reg_002: Test Cases/TC_Reg_002
+
+20-04-2026T18:58:21 - [TEST_STEP][PASSED] - openBrowser("https://www.demoblaze.com"): Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-04-2026T18:58:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-04-2026T18:58:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_Sign up")): Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Username_sign-username"), "My300lbslife"): Text 'My300lbslife' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:24 - [MESSAGE][PASSED] - Text 'My300lbslife' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel"): Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:25 - [MESSAGE][PASSED] - Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/button_Sign up")): Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:25 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+20-04-2026T18:58:26 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+20-04-2026T18:58:26 - [TEST_STEP][PASSED] - alertMessage = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'This user already exist.'
+
+20-04-2026T18:58:26 - [MESSAGE][PASSED] - Get alert text successfully: 'This user already exist.'
+
+20-04-2026T18:58:26 - [TEST_STEP][PASSED] - verifyMatch(alertMessage, "This user already exist.", false): Actual text 'This user already exist.' and expected text 'This user already exist.' are matched 
+
+20-04-2026T18:58:26 - [MESSAGE][PASSED] - Actual text 'This user already exist.' and expected text 'This user already exist.' are matched 
+
+20-04-2026T18:58:26 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-04-2026T18:58:26 - [MESSAGE][PASSED] - Alert accepted
+
+20-04-2026T18:58:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2026T18:58:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Reg_004" time="4.097" classname="Test Cases/TC_Reg_004" status="PASSED">
+         <system-out><![CDATA[20-04-2026T18:58:26 - [TEST_CASE][PASSED] - Test Cases/TC_Reg_004: Test Cases/TC_Reg_004
+
+20-04-2026T18:58:26 - [TEST_STEP][PASSED] - openBrowser("https://www.demoblaze.com"): Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-04-2026T18:58:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-04-2026T18:58:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_Sign up")): Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Username_sign-username"), "My300lbslife"): Text 'My300lbslife' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:29 - [MESSAGE][PASSED] - Text 'My300lbslife' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Password_sign-password"), ""): Text '' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/button_Sign up")): Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - alertMessage = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - verifyMatch(alertMessage, "Please fill out Username and Password.", true): Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Alert accepted
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2026T18:58:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Reg_003" time="4.123" classname="Test Cases/TC_Reg_003" status="PASSED">
+         <system-out><![CDATA[20-04-2026T18:58:30 - [TEST_CASE][PASSED] - Test Cases/TC_Reg_003: Test Cases/TC_Reg_003
+
+20-04-2026T18:58:30 - [TEST_STEP][PASSED] - openBrowser("https://www.demoblaze.com"): Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-04-2026T18:58:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-04-2026T18:58:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_Sign up")): Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Username_sign-username"), ""): Text '' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel"): Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Text 'FatDaniel' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/button_Sign up")): Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - alertMessage = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - verifyMatch(alertMessage, "Please fill out Username and Password.", true): Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Alert accepted
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2026T18:58:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Reg_005" time="3.969" classname="Test Cases/TC_Reg_005" status="PASSED">
+         <system-out><![CDATA[20-04-2026T18:58:34 - [TEST_CASE][PASSED] - Test Cases/TC_Reg_005: Test Cases/TC_Reg_005
+
+20-04-2026T18:58:34 - [TEST_STEP][PASSED] - openBrowser("https://www.demoblaze.com"): Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-04-2026T18:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-04-2026T18:58:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com'
+
+20-04-2026T18:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_Sign up")): Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Sign up' is clicked on
+
+20-04-2026T18:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Username_sign-username"), ""): Text '' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_STORE/input_Username_sign-username'
+
+20-04-2026T18:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_STORE/input_Password_sign-password"), ""): Text '' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_STORE/input_Password_sign-password'
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/button_Sign up")): Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Sign up' is clicked on
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - alertMessage = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Get alert text successfully: 'Please fill out Username and Password.'
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - verifyMatch(alertMessage, "Please fill out Username and Password.", true): Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Actual text 'Please fill out Username and Password.' and expected text 'Please fill out Username and Password.' are matched  using regular expression
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Alert accepted
+
+20-04-2026T18:58:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2026T18:58:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-04-2026T18:58:15 - [TEST_SUITE][PASSED] - TS_BrandonMair_Prod_Chrome: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

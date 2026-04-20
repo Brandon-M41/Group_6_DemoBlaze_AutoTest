@@ -1,0 +1,112 @@
+2026-04-20 18:58:15.438 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\kagev\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-20 18:58:15.440 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\kagev\Katalon Studio\DemoBlaze_AutoTest\Include\config\log.properties
+2026-04-20 18:58:15.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_BrandonMair_Prod_Chrome
+2026-04-20 18:58:15.958 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Foreign Kenzoku
+2026-04-20 18:58:15.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = DemoBlaze_AutoTest
+2026-04-20 18:58:15.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kagev - Kenzoku
+2026-04-20 18:58:15.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-20 18:58:15.959 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 25.35.141.170
+2026-04-20 18:58:15.961 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-20 18:58:16.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:58:16.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_001
+2026-04-20 18:58:16.281 DEBUG testcase.TC_Reg_001                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:58:16.457 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:58:16.486 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:58:17.772 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0bae433b716cda4e9ebf30e5be051b8c
+2026-04-20 18:58:17.773 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:58:17.774 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:58:17.774 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:58:17.782 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:58:18.441 DEBUG testcase.TC_Reg_001                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:58:19.472 DEBUG testcase.TC_Reg_001                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "3y5iohjgwrbsn")
+2026-04-20 18:58:20.246 DEBUG testcase.TC_Reg_001                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:58:20.789 DEBUG testcase.TC_Reg_001                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:58:21.059 DEBUG testcase.TC_Reg_001                      - 6: waitForAlert(5)
+2026-04-20 18:58:21.601 DEBUG testcase.TC_Reg_001                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:58:21.616 DEBUG testcase.TC_Reg_001                      - 8: verifyMatch(alertMessage, ".*Sign up successful.*", true)
+2026-04-20 18:58:21.638 DEBUG testcase.TC_Reg_001                      - 9: acceptAlert()
+2026-04-20 18:58:21.654 DEBUG testcase.TC_Reg_001                      - 10: closeBrowser()
+2026-04-20 18:58:21.769 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_001
+2026-04-20 18:58:21.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:58:21.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_002
+2026-04-20 18:58:21.819 DEBUG testcase.TC_Reg_002                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:58:21.821 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:58:21.823 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:58:22.458 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8d501d2bab87dd7ae7f5d779192c4deb
+2026-04-20 18:58:22.458 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:58:22.458 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:58:22.459 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:58:22.459 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:58:23.093 DEBUG testcase.TC_Reg_002                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:58:24.156 DEBUG testcase.TC_Reg_002                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "My300lbslife")
+2026-04-20 18:58:24.905 DEBUG testcase.TC_Reg_002                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:58:25.454 DEBUG testcase.TC_Reg_002                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:58:25.739 DEBUG testcase.TC_Reg_002                      - 6: waitForAlert(5)
+2026-04-20 18:58:26.263 DEBUG testcase.TC_Reg_002                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:58:26.269 DEBUG testcase.TC_Reg_002                      - 8: verifyMatch(alertMessage, "This user already exist.", false)
+2026-04-20 18:58:26.272 DEBUG testcase.TC_Reg_002                      - 9: acceptAlert()
+2026-04-20 18:58:26.278 DEBUG testcase.TC_Reg_002                      - 10: closeBrowser()
+2026-04-20 18:58:26.379 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_002
+2026-04-20 18:58:26.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:58:26.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_004
+2026-04-20 18:58:26.423 DEBUG testcase.TC_Reg_004                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:58:26.424 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:58:26.426 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:58:27.038 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b2dd160a23a0e613decd11ea3e2869b5
+2026-04-20 18:58:27.039 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:58:27.039 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:58:27.040 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:58:27.040 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:58:27.687 DEBUG testcase.TC_Reg_004                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:58:28.768 DEBUG testcase.TC_Reg_004                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "My300lbslife")
+2026-04-20 18:58:29.519 DEBUG testcase.TC_Reg_004                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "")
+2026-04-20 18:58:30.064 DEBUG testcase.TC_Reg_004                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:58:30.344 DEBUG testcase.TC_Reg_004                      - 6: waitForAlert(5)
+2026-04-20 18:58:30.355 DEBUG testcase.TC_Reg_004                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:58:30.359 DEBUG testcase.TC_Reg_004                      - 8: verifyMatch(alertMessage, "Please fill out Username and Password.", true)
+2026-04-20 18:58:30.361 DEBUG testcase.TC_Reg_004                      - 9: acceptAlert()
+2026-04-20 18:58:30.366 DEBUG testcase.TC_Reg_004                      - 10: closeBrowser()
+2026-04-20 18:58:30.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_004
+2026-04-20 18:58:30.481 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:58:30.481 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_003
+2026-04-20 18:58:30.525 DEBUG testcase.TC_Reg_003                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:58:30.526 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:58:30.527 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:58:31.207 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e875e6cbad6f8c95a50439cdcca48da8
+2026-04-20 18:58:31.208 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:58:31.208 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:58:31.208 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:58:31.209 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:58:31.846 DEBUG testcase.TC_Reg_003                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:58:32.908 DEBUG testcase.TC_Reg_003                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "")
+2026-04-20 18:58:33.669 DEBUG testcase.TC_Reg_003                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:58:34.195 DEBUG testcase.TC_Reg_003                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:58:34.474 DEBUG testcase.TC_Reg_003                      - 6: waitForAlert(5)
+2026-04-20 18:58:34.487 DEBUG testcase.TC_Reg_003                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:58:34.494 DEBUG testcase.TC_Reg_003                      - 8: verifyMatch(alertMessage, "Please fill out Username and Password.", true)
+2026-04-20 18:58:34.495 DEBUG testcase.TC_Reg_003                      - 9: acceptAlert()
+2026-04-20 18:58:34.502 DEBUG testcase.TC_Reg_003                      - 10: closeBrowser()
+2026-04-20 18:58:34.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_003
+2026-04-20 18:58:34.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:58:34.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_005
+2026-04-20 18:58:34.647 DEBUG testcase.TC_Reg_005                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:58:34.647 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:58:34.648 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:58:35.279 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b2c2e80934d983ba8337877ad0d4073e
+2026-04-20 18:58:35.279 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:58:35.279 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:58:35.279 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:58:35.279 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:58:35.943 DEBUG testcase.TC_Reg_005                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:58:36.885 DEBUG testcase.TC_Reg_005                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "")
+2026-04-20 18:58:37.623 DEBUG testcase.TC_Reg_005                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "")
+2026-04-20 18:58:38.149 DEBUG testcase.TC_Reg_005                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:58:38.417 DEBUG testcase.TC_Reg_005                      - 6: waitForAlert(5)
+2026-04-20 18:58:38.428 DEBUG testcase.TC_Reg_005                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:58:38.432 DEBUG testcase.TC_Reg_005                      - 8: verifyMatch(alertMessage, "Please fill out Username and Password.", true)
+2026-04-20 18:58:38.435 DEBUG testcase.TC_Reg_005                      - 9: acceptAlert()
+2026-04-20 18:58:38.441 DEBUG testcase.TC_Reg_005                      - 10: closeBrowser()
+2026-04-20 18:58:38.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_005
+2026-04-20 18:58:38.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-20 18:58:38.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_BrandonMair_Prod_Chrome
+2026-04-20 18:58:38.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

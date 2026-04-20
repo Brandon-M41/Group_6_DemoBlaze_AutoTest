@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_BrandonMair_Prod_Chrome,Chrome 147.0.7727.102,,,20-04-2026 18:58:15,20-04-2026 18:58:38,22.649s,PASSED
+,,,,,,,
+Test Cases/TC_Reg_001,Chrome 147.0.7727.102,,,20-04-2026 18:58:16,20-04-2026 18:58:21,5.721s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:16,20-04-2026 18:58:18,2.160s,PASSED
+"click(findTestObject(""Page_STORE/a_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:18,20-04-2026 18:58:19,1.031s,PASSED
+"setText(findTestObject(""Page_STORE/input_Username_sign-username""), ""3y5iohjgwrbsn"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:19,20-04-2026 18:58:20,0.774s,PASSED
+"setText(findTestObject(""Page_STORE/input_Password_sign-password""), ""FatDaniel"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:20,20-04-2026 18:58:20,0.542s,PASSED
+"click(findTestObject(""Page_STORE/button_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:20,20-04-2026 18:58:21,0.270s,PASSED
+waitForAlert(5),Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:21,0.542s,PASSED
+alertMessage = getAlertText(STOP_ON_FAILURE),Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:21,0.015s,PASSED
+"verifyMatch(alertMessage, "".*Sign up successful.*"", true)",Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:21,0.023s,PASSED
+acceptAlert(),Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:21,0.015s,PASSED
+closeBrowser(),Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:21,0.113s,PASSED
+,,,,,,,
+Test Cases/TC_Reg_002,Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:26,4.608s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:21,20-04-2026 18:58:23,1.274s,PASSED
+"click(findTestObject(""Page_STORE/a_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:23,20-04-2026 18:58:24,1.064s,PASSED
+"setText(findTestObject(""Page_STORE/input_Username_sign-username""), ""My300lbslife"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:24,20-04-2026 18:58:24,0.748s,PASSED
+"setText(findTestObject(""Page_STORE/input_Password_sign-password""), ""FatDaniel"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:24,20-04-2026 18:58:25,0.550s,PASSED
+"click(findTestObject(""Page_STORE/button_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:25,20-04-2026 18:58:25,0.284s,PASSED
+waitForAlert(5),Chrome 147.0.7727.102,,,20-04-2026 18:58:25,20-04-2026 18:58:26,0.523s,PASSED
+alertMessage = getAlertText(STOP_ON_FAILURE),Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:26,0.006s,PASSED
+"verifyMatch(alertMessage, ""This user already exist."", false)",Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:26,0.003s,PASSED
+acceptAlert(),Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:26,0.006s,PASSED
+closeBrowser(),Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:26,0.101s,PASSED
+,,,,,,,
+Test Cases/TC_Reg_004,Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:30,4.097s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:26,20-04-2026 18:58:27,1.264s,PASSED
+"click(findTestObject(""Page_STORE/a_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:27,20-04-2026 18:58:28,1.080s,PASSED
+"setText(findTestObject(""Page_STORE/input_Username_sign-username""), ""My300lbslife"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:28,20-04-2026 18:58:29,0.750s,PASSED
+"setText(findTestObject(""Page_STORE/input_Password_sign-password""), """")",Chrome 147.0.7727.102,,,20-04-2026 18:58:29,20-04-2026 18:58:30,0.545s,PASSED
+"click(findTestObject(""Page_STORE/button_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.280s,PASSED
+waitForAlert(5),Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.011s,PASSED
+alertMessage = getAlertText(STOP_ON_FAILURE),Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.004s,PASSED
+"verifyMatch(alertMessage, ""Please fill out Username and Password."", true)",Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.003s,PASSED
+acceptAlert(),Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.005s,PASSED
+closeBrowser(),Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:30,0.111s,PASSED
+,,,,,,,
+Test Cases/TC_Reg_003,Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:34,4.123s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:30,20-04-2026 18:58:31,1.322s,PASSED
+"click(findTestObject(""Page_STORE/a_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:31,20-04-2026 18:58:32,1.061s,PASSED
+"setText(findTestObject(""Page_STORE/input_Username_sign-username""), """")",Chrome 147.0.7727.102,,,20-04-2026 18:58:32,20-04-2026 18:58:33,0.760s,PASSED
+"setText(findTestObject(""Page_STORE/input_Password_sign-password""), ""FatDaniel"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:33,20-04-2026 18:58:34,0.526s,PASSED
+"click(findTestObject(""Page_STORE/button_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.280s,PASSED
+waitForAlert(5),Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.013s,PASSED
+alertMessage = getAlertText(STOP_ON_FAILURE),Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.006s,PASSED
+"verifyMatch(alertMessage, ""Please fill out Username and Password."", true)",Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.001s,PASSED
+acceptAlert(),Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.008s,PASSED
+closeBrowser(),Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:34,0.101s,PASSED
+,,,,,,,
+Test Cases/TC_Reg_005,Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:38,3.969s,PASSED
+"openBrowser(""https://www.demoblaze.com"")",Chrome 147.0.7727.102,,,20-04-2026 18:58:34,20-04-2026 18:58:35,1.296s,PASSED
+"click(findTestObject(""Page_STORE/a_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:35,20-04-2026 18:58:36,0.941s,PASSED
+"setText(findTestObject(""Page_STORE/input_Username_sign-username""), """")",Chrome 147.0.7727.102,,,20-04-2026 18:58:36,20-04-2026 18:58:37,0.737s,PASSED
+"setText(findTestObject(""Page_STORE/input_Password_sign-password""), """")",Chrome 147.0.7727.102,,,20-04-2026 18:58:37,20-04-2026 18:58:38,0.525s,PASSED
+"click(findTestObject(""Page_STORE/button_Sign up""))",Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.268s,PASSED
+waitForAlert(5),Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.011s,PASSED
+alertMessage = getAlertText(STOP_ON_FAILURE),Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.004s,PASSED
+"verifyMatch(alertMessage, ""Please fill out Username and Password."", true)",Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.003s,PASSED
+acceptAlert(),Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.006s,PASSED
+closeBrowser(),Chrome 147.0.7727.102,,,20-04-2026 18:58:38,20-04-2026 18:58:38,0.134s,PASSED

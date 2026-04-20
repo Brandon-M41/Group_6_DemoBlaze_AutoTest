@@ -1,0 +1,308 @@
+2026-04-20 18:57:28.253 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\kagev\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-20 18:57:28.255 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\kagev\Katalon Studio\DemoBlaze_AutoTest\Include\config\log.properties
+2026-04-20 18:57:28.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_BrandonMair_Prod_Chrome
+2026-04-20 18:57:28.788 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Foreign Kenzoku
+2026-04-20 18:57:28.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = DemoBlaze_AutoTest
+2026-04-20 18:57:28.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kagev - Kenzoku
+2026-04-20 18:57:28.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-20 18:57:28.790 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 25.35.141.170
+2026-04-20 18:57:28.790 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-20 18:57:28.874 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:57:28.874 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_001
+2026-04-20 18:57:29.102 DEBUG testcase.TC_Reg_001                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:57:29.305 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:57:29.334 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:57:30.631 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7d43c598aa2c5e8c45ad3394739b4236
+2026-04-20 18:57:30.632 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:57:30.632 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:57:30.632 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:57:30.640 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:57:31.380 DEBUG testcase.TC_Reg_001                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:57:33.894 DEBUG testcase.TC_Reg_001                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "135346wyeh")
+2026-04-20 18:57:34.665 DEBUG testcase.TC_Reg_001                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:57:35.198 DEBUG testcase.TC_Reg_001                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:57:35.477 DEBUG testcase.TC_Reg_001                      - 6: waitForAlert(5)
+2026-04-20 18:57:36.021 DEBUG testcase.TC_Reg_001                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:57:36.036 DEBUG testcase.TC_Reg_001                      - 8: verifyMatch(alertMessage, ".*Sign up successful.*", true)
+2026-04-20 18:57:36.056 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify match between actual text 'This user already exist.' and expected text '.*Sign up successful.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-04-20 18:57:36.059 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Reg_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-04-20 18:57:36.060 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_001
+2026-04-20 18:57:36.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:57:36.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_001 - Retry attempt 1
+2026-04-20 18:57:36.070 DEBUG testcase.TC_Reg_001                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:57:36.071 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-20 18:57:36.188 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:57:36.191 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:57:36.914 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 11de13927dcfa0cf28a504f60e46fc00
+2026-04-20 18:57:36.914 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:57:36.915 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:57:36.915 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:57:36.915 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:57:37.561 DEBUG testcase.TC_Reg_001                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:57:38.722 DEBUG testcase.TC_Reg_001                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "135346wyeh")
+2026-04-20 18:57:39.475 DEBUG testcase.TC_Reg_001                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:57:40.015 DEBUG testcase.TC_Reg_001                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:57:40.284 DEBUG testcase.TC_Reg_001                      - 6: waitForAlert(5)
+2026-04-20 18:57:40.813 DEBUG testcase.TC_Reg_001                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:57:40.817 DEBUG testcase.TC_Reg_001                      - 8: verifyMatch(alertMessage, ".*Sign up successful.*", true)
+2026-04-20 18:57:40.819 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify match between actual text 'This user already exist.' and expected text '.*Sign up successful.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-04-20 18:57:40.820 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Reg_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-04-20 18:57:40.821 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_001
+2026-04-20 18:57:40.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:57:40.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_001 - Retry attempt 2
+2026-04-20 18:57:40.830 DEBUG testcase.TC_Reg_001                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:57:40.832 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-20 18:57:40.933 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:57:40.934 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:57:41.545 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 158a044d9819c21b15e7df41c55ac3a7
+2026-04-20 18:57:41.545 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:57:41.546 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:57:41.546 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:57:41.546 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:57:42.209 DEBUG testcase.TC_Reg_001                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:57:43.268 DEBUG testcase.TC_Reg_001                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "135346wyeh")
+2026-04-20 18:57:44.021 DEBUG testcase.TC_Reg_001                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:57:44.555 DEBUG testcase.TC_Reg_001                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:57:44.831 DEBUG testcase.TC_Reg_001                      - 6: waitForAlert(5)
+2026-04-20 18:57:45.344 DEBUG testcase.TC_Reg_001                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:57:45.348 DEBUG testcase.TC_Reg_001                      - 8: verifyMatch(alertMessage, ".*Sign up successful.*", true)
+2026-04-20 18:57:45.349 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify match between actual text 'This user already exist.' and expected text '.*Sign up successful.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-04-20 18:57:45.350 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Reg_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-04-20 18:57:45.351 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_001
+2026-04-20 18:57:45.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:57:45.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_001 - Retry attempt 3
+2026-04-20 18:57:45.361 DEBUG testcase.TC_Reg_001                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:57:45.361 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-20 18:57:45.467 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:57:45.469 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:57:46.105 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a32c5123ab6ef97a049068bbfe8586af
+2026-04-20 18:57:46.105 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:57:46.105 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:57:46.106 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:57:46.106 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:57:46.859 DEBUG testcase.TC_Reg_001                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
+2026-04-20 18:57:47.907 DEBUG testcase.TC_Reg_001                      - 3: setText(findTestObject("Page_STORE/input_Username_sign-username"), "135346wyeh")
+2026-04-20 18:57:48.646 DEBUG testcase.TC_Reg_001                      - 4: setText(findTestObject("Page_STORE/input_Password_sign-password"), "FatDaniel")
+2026-04-20 18:57:49.192 DEBUG testcase.TC_Reg_001                      - 5: click(findTestObject("Page_STORE/button_Sign up"))
+2026-04-20 18:57:49.477 DEBUG testcase.TC_Reg_001                      - 6: waitForAlert(5)
+2026-04-20 18:57:49.992 DEBUG testcase.TC_Reg_001                      - 7: alertMessage = getAlertText(STOP_ON_FAILURE)
+2026-04-20 18:57:49.996 DEBUG testcase.TC_Reg_001                      - 8: verifyMatch(alertMessage, ".*Sign up successful.*", true)
+2026-04-20 18:57:49.997 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify match between actual text 'This user already exist.' and expected text '.*Sign up successful.*' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-04-20 18:57:49.998 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC_Reg_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'This user already exist.' and expected text '.*Sign up successful.*' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Reg_001.run(TC_Reg_001:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-04-20 18:57:49.998 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Reg_001
+2026-04-20 18:57:50.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-20 18:57:50.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Reg_002
+2026-04-20 18:57:50.053 DEBUG testcase.TC_Reg_002                      - 1: openBrowser("https://www.demoblaze.com")
+2026-04-20 18:57:50.054 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-20 18:57:50.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-20 18:57:50.164 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-20 18:57:50.776 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b79241ed94f6c8c7f01b297e6fc17880
+2026-04-20 18:57:50.777 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 147.0.7727.102
+2026-04-20 18:57:50.777 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-20 18:57:50.777 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-20 18:57:50.777 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-20 18:57:51.408 DEBUG testcase.TC_Reg_002                      - 2: click(findTestObject("Page_STORE/a_Sign up"))
