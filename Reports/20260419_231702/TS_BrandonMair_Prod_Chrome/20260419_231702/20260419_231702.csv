@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_BrandonMair_Prod_Chrome,Chrome 142.0.7444.163,,,19-04-2026 23:17:06,19-04-2026 23:18:09,1m - 2.318s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_001,Chrome 142.0.7444.163,"Test Case for products category. This indicates that clicking the ""Phones"" category opens a page with only phones being displayed on the users' screen.",,19-04-2026 23:17:07,19-04-2026 23:17:21,14.198s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.163,,,19-04-2026 23:17:07,19-04-2026 23:17:09,2.173s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Chrome 142.0.7444.163,,,19-04-2026 23:17:09,19-04-2026 23:17:10,0.716s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Chrome 142.0.7444.163,,,19-04-2026 23:17:10,19-04-2026 23:17:21,11.030s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_002,Chrome 142.0.7444.163,"Objective:
+Verify that a user can open the phone category and view only the desired product - laptops.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click on ""Laptops"" category
+3. Verify product page loads with only desired product.
+
+Expected Result:
+Desired product (in this case, laptops) page displays.",,19-04-2026 23:17:21,19-04-2026 23:17:33,12.463s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.163,,,19-04-2026 23:17:21,19-04-2026 23:17:22,1.156s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Chrome 142.0.7444.163,,,19-04-2026 23:17:22,19-04-2026 23:17:23,0.648s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Chrome 142.0.7444.163,,,19-04-2026 23:17:23,19-04-2026 23:17:33,10.648s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_003,Chrome 142.0.7444.163,"Objective:
+Verify that a user can open the phone category and view only the desired product - monitors.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click on ""Monitors"" category
+3. Verify product page loads with only desired product.
+
+Expected Result:
+Desired product (in this case, monitors) page displays.",,19-04-2026 23:17:33,19-04-2026 23:17:47,13.794s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.163,,,19-04-2026 23:17:33,19-04-2026 23:17:35,1.971s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Chrome 142.0.7444.163,,,19-04-2026 23:17:35,19-04-2026 23:17:37,1.338s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Chrome 142.0.7444.163,,,19-04-2026 23:17:37,19-04-2026 23:17:47,10.471s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_004,Chrome 142.0.7444.163,"Objective:
+Verify that a user can open a product and view its details.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click a product image.
+3. Verify product details page loads
+
+Expected Result:
+Product details are displayed correctly.",,19-04-2026 23:17:47,19-04-2026 23:18:01,14.160s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.163,,,19-04-2026 23:17:47,19-04-2026 23:17:48,0.958s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Chrome 142.0.7444.163,,,19-04-2026 23:17:48,19-04-2026 23:17:49,0.499s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Chrome 142.0.7444.163,,,19-04-2026 23:17:49,19-04-2026 23:17:59,10.511s,PASSED
+"click(findTestObject(""Page_STORE/img_card-img-top img-fluid""))",Chrome 142.0.7444.163,,,19-04-2026 23:17:59,19-04-2026 23:18:00,1.248s,PASSED
+"click(findTestObject(""Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:00,19-04-2026 23:18:01,0.880s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_005,Chrome 142.0.7444.163,"Objective:
+Verify that a user can open a product and view its details.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click a product
+3. Verify product details page loads
+
+Expected Result:
+Product details such as name, price, and description are displayed correctly.",,19-04-2026 23:18:01,19-04-2026 23:18:09,7.296s,PASSED
+"openBrowser("""")",Chrome 142.0.7444.163,,,19-04-2026 23:18:01,19-04-2026 23:18:03,1.248s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Chrome 142.0.7444.163,,,19-04-2026 23:18:03,19-04-2026 23:18:04,1.932s,PASSED
+"click(findTestObject(""Page_STORE/img_card-img-top img-fluid""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:04,19-04-2026 23:18:06,1.442s,PASSED
+"click(findTestObject(""Page_STORE/img_img""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:06,19-04-2026 23:18:07,0.867s,PASSED
+"click(findTestObject(""Page_STORE/h2_Samsung galaxy s6""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:07,19-04-2026 23:18:07,0.285s,PASSED
+"click(findTestObject(""Page_STORE/h3_360 _includes tax""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:07,19-04-2026 23:18:07,0.286s,PASSED
+"click(findTestObject(""Page_STORE/div_more-information""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:07,19-04-2026 23:18:08,0.299s,PASSED
+"click(findTestObject(""Page_STORE/strong_Product description""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:08,19-04-2026 23:18:08,0.295s,PASSED
+"click(findTestObject(""Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:08,19-04-2026 23:18:08,0.293s,PASSED
+"click(findTestObject(""Page_STORE/div_tbodyid""))",Chrome 142.0.7444.163,,,19-04-2026 23:18:08,19-04-2026 23:18:09,0.293s,PASSED

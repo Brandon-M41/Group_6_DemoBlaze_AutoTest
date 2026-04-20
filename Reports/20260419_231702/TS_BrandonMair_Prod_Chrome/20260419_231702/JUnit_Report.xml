@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_BrandonMair_Prod_Chrome" time="62.113" tests="5" failures="0" errors="0">
+   <testsuite name="TS_BrandonMair_Prod_Chrome" tests="5" failures="0" errors="0" time="62.113" skipped="0" timestamp="2026-04-20T03:17:06.908Z" hostname="brand - 10.0.0.51" id="Test Suites/TS_BrandonMair_Prod_Chrome">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\brand\\git\\Group_6_DemoBlaze_AutoTest\\Reports\\20260419_231702\\TS_BrandonMair_Prod_Chrome\\20260419_231702"/>
+         <property name="logFiles" value="C:\\Users\\brand\\git\\Group_6_DemoBlaze_AutoTest\\Reports\\20260419_231702\\TS_BrandonMair_Prod_Chrome\\20260419_231702\\console0.log, C:\\Users\\brand\\git\\Group_6_DemoBlaze_AutoTest\\Reports\\20260419_231702\\TS_BrandonMair_Prod_Chrome\\20260419_231702\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="brand - 10.0.0.51"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 142.0.7444.163"/>
+         <property name="userFullName" value="Brandon Mair"/>
+         <property name="hostAddress" value="10.0.0.51"/>
+         <property name="sessionId" value="c277b978492671ab3588f57332c9b9a1"/>
+         <property name="projectName" value="Group_6_DemoBlaze_AutoTest"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Prod_001" time="14.198" classname="Test Cases/TC_Prod_001" status="PASSED">
+         <system-out><![CDATA[19-04-2026T23:17:07 - [TEST_CASE][PASSED] - Test Cases/TC_Prod_001: Test Cases/TC_Prod_001
+
+19-04-2026T23:17:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2026T23:17:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-04-2026T23:17:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2026T23:17:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2026T23:17:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com"): Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:10 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_itemc")): Object: 'Object Repository/Page_STORE/a_itemc' is clicked on
+
+19-04-2026T23:17:20 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+
+19-04-2026T23:17:20 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [357407b70ca6ea998c4d6a2dc4c867fb, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54616}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54616/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:15678/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 357407b70ca6ea998c4d6a2dc4c867fb
+
+19-04-2026T23:17:21 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+
+19-04-2026T23:17:21 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+
+19-04-2026T23:17:21 - [MESSAGE][WARNING] - Waiting for element timed out
+
+19-04-2026T23:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_itemc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Prod_002" time="12.463" classname="Test Cases/TC_Prod_002" status="PASSED">
+         <system-out><![CDATA[19-04-2026T23:17:21 - [TEST_CASE][PASSED] - Test Cases/TC_Prod_002: Test Cases/TC_Prod_002
+
+19-04-2026T23:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2026T23:17:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-04-2026T23:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-04-2026T23:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2026T23:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2026T23:17:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com"): Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:23 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_itemc")): Object: 'Object Repository/Page_STORE/a_itemc' is clicked on
+
+19-04-2026T23:17:33 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+
+19-04-2026T23:17:33 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [c9f00b2ecb32e6a840f399f2790f9b95, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62662}, goog:processID: 13560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62662/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:27319/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f00b2ecb32e6a840f399f2790f9b95
+
+19-04-2026T23:17:33 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+
+19-04-2026T23:17:33 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+
+19-04-2026T23:17:33 - [MESSAGE][WARNING] - Waiting for element timed out
+
+19-04-2026T23:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_itemc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Prod_003" time="13.794" classname="Test Cases/TC_Prod_003" status="PASSED">
+         <system-out><![CDATA[19-04-2026T23:17:33 - [TEST_CASE][PASSED] - Test Cases/TC_Prod_003: Test Cases/TC_Prod_003
+
+19-04-2026T23:17:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2026T23:17:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-04-2026T23:17:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-04-2026T23:17:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2026T23:17:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2026T23:17:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com"): Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:37 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_itemc")): Object: 'Object Repository/Page_STORE/a_itemc' is clicked on
+
+19-04-2026T23:17:47 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+
+19-04-2026T23:17:47 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [e0033645f69dcfff4952133c786d6d37, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, goog:processID: 9328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:43675/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0033645f69dcfff4952133c786d6d37
+
+19-04-2026T23:17:47 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+
+19-04-2026T23:17:47 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+
+19-04-2026T23:17:47 - [MESSAGE][WARNING] - Waiting for element timed out
+
+19-04-2026T23:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_itemc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Prod_004" time="14.16" classname="Test Cases/TC_Prod_004" status="PASSED">
+         <system-out><![CDATA[19-04-2026T23:17:47 - [TEST_CASE][PASSED] - Test Cases/TC_Prod_004: Test Cases/TC_Prod_004
+
+19-04-2026T23:17:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2026T23:17:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-04-2026T23:17:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-04-2026T23:17:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2026T23:17:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2026T23:17:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com"): Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:49 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/a_itemc")): Object: 'Object Repository/Page_STORE/a_itemc' is clicked on
+
+19-04-2026T23:17:59 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+
+19-04-2026T23:17:59 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [975daaf16c86415d8748b1e835b19dd4, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52480}, goog:processID: 17552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52480/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:48216/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 975daaf16c86415d8748b1e835b19dd4
+
+19-04-2026T23:17:59 - [MESSAGE][INFO] - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+
+19-04-2026T23:17:59 - [MESSAGE][WARNING] - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+
+19-04-2026T23:17:59 - [MESSAGE][WARNING] - Waiting for element timed out
+
+19-04-2026T23:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_itemc' is clicked on
+
+19-04-2026T23:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/img_card-img-top img-fluid")): Object: 'Object Repository/Page_STORE/img_card-img-top img-fluid' is clicked on
+
+19-04-2026T23:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/img_card-img-top img-fluid' is clicked on
+
+19-04-2026T23:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d")): Object: 'Object Repository/Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d' is clicked on
+
+19-04-2026T23:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Prod_005" time="7.296" classname="Test Cases/TC_Prod_005" status="PASSED">
+         <system-out><![CDATA[19-04-2026T23:18:01 - [TEST_CASE][PASSED] - Test Cases/TC_Prod_005: Test Cases/TC_Prod_005
+
+19-04-2026T23:18:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2026T23:18:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-04-2026T23:18:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-04-2026T23:18:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2026T23:18:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2026T23:18:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com"): Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:18:04 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com' successfully
+
+19-04-2026T23:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/img_card-img-top img-fluid")): Object: 'Object Repository/Page_STORE/img_card-img-top img-fluid' is clicked on
+
+19-04-2026T23:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/img_card-img-top img-fluid' is clicked on
+
+19-04-2026T23:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/img_img")): Object: 'Object Repository/Page_STORE/img_img' is clicked on
+
+19-04-2026T23:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/img_img' is clicked on
+
+19-04-2026T23:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/h2_Samsung galaxy s6")): Object: 'Object Repository/Page_STORE/h2_Samsung galaxy s6' is clicked on
+
+19-04-2026T23:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/h2_Samsung galaxy s6' is clicked on
+
+19-04-2026T23:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/h3_360 _includes tax")): Object: 'Object Repository/Page_STORE/h3_360 _includes tax' is clicked on
+
+19-04-2026T23:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/h3_360 _includes tax' is clicked on
+
+19-04-2026T23:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/div_more-information")): Object: 'Object Repository/Page_STORE/div_more-information' is clicked on
+
+19-04-2026T23:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/div_more-information' is clicked on
+
+19-04-2026T23:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/strong_Product description")): Object: 'Object Repository/Page_STORE/strong_Product description' is clicked on
+
+19-04-2026T23:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/strong_Product description' is clicked on
+
+19-04-2026T23:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct")): Object: 'Object Repository/Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct' is clicked on
+
+19-04-2026T23:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct' is clicked on
+
+19-04-2026T23:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_STORE/div_tbodyid")): Object: 'Object Repository/Page_STORE/div_tbodyid' is clicked on
+
+19-04-2026T23:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/div_tbodyid' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-04-2026T23:17:06 - [TEST_SUITE][PASSED] - TS_BrandonMair_Prod_Chrome: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

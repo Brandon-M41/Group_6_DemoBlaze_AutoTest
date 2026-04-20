@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective:&#xd;
+Verify that a user can open the phone category and view only the desired product - laptops.&#xd;
+&#xd;
+Preconditions:&#xd;
+User is on DemoBlaze homepage.&#xd;
+&#xd;
+Steps:&#xd;
+1. Open homepage&#xd;
+2. Click on &quot;Laptops&quot; category&#xd;
+3. Verify product page loads with only desired product.&#xd;
+&#xd;
+Expected Result:&#xd;
+Desired product (in this case, laptops) page displays.</description>
+   <name>TC_Prod_002</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>330a4da9-2e8e-44f6-8fe6-09ea9a12e558</testCaseGuid>
+</TestCaseEntity>

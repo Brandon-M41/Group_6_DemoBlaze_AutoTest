@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case for products category. This indicates that clicking the &quot;Phones&quot; category opens a page with only phones being displayed on the users' screen.</description>
+   <name>TC_Prod_001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a07b6ccd-7946-4829-8f52-e9561fa9af71</testCaseGuid>
+</TestCaseEntity>

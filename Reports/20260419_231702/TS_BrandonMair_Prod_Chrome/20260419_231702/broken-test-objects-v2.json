@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_STORE/a_itemc",
+      "brokenLocator": "//*[@onclick \u003d \u0027byCat(\u0027phone\u0027)\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"Phones\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20260419_231702/TS_BrandonMair_Prod_Chrome/20260419_231702/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png"
+    }
+  ]
+}

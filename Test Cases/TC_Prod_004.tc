@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective:&#xd;
+Verify that a user can open a product and view its details.&#xd;
+&#xd;
+Preconditions:&#xd;
+User is on DemoBlaze homepage.&#xd;
+&#xd;
+Steps:&#xd;
+1. Open homepage&#xd;
+2. Click a product image.&#xd;
+3. Verify product details page loads&#xd;
+&#xd;
+Expected Result:&#xd;
+Product details are displayed correctly.</description>
+   <name>TC_Prod_004</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e40e4f01-4198-414b-9965-3b7b8c249347</testCaseGuid>
+</TestCaseEntity>

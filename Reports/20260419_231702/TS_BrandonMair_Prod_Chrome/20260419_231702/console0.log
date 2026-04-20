@@ -1,0 +1,166 @@
+2026-04-19 23:17:06.243 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\brand\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-04-19 23:17:06.247 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\brand\git\Group_6_DemoBlaze_AutoTest\Include\config\log.properties
+2026-04-19 23:17:06.867 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_BrandonMair_Prod_Chrome
+2026-04-19 23:17:06.926 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Brandon Mair
+2026-04-19 23:17:06.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Group_6_DemoBlaze_AutoTest
+2026-04-19 23:17:06.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = brand - 10.0.0.51
+2026-04-19 23:17:06.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-19 23:17:06.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.0.0.51
+2026-04-19 23:17:06.930 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-04-19 23:17:07.047 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-19 23:17:07.047 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_001
+2026-04-19 23:17:07.323 DEBUG testcase.TC_Prod_001                     - 1: openBrowser("")
+2026-04-19 23:17:07.553 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-19 23:17:07.610 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-19 23:17:09.465 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 357407b70ca6ea998c4d6a2dc4c867fb
+2026-04-19 23:17:09.466 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.163
+2026-04-19 23:17:09.466 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-19 23:17:09.467 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-19 23:17:09.470 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-19 23:17:09.496 DEBUG testcase.TC_Prod_001                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-19 23:17:10.212 DEBUG testcase.TC_Prod_001                     - 3: click(findTestObject("Page_STORE/a_itemc"))
+2026-04-19 23:17:20.577 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+2026-04-19 23:17:20.826 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [357407b70ca6ea998c4d6a2dc4c867fb, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54616}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54616/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:15678/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 357407b70ca6ea998c4d6a2dc4c867fb
+2026-04-19 23:17:21.160 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+2026-04-19 23:17:21.168 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+2026-04-19 23:17:21.178 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-19 23:17:21.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Prod_001
+2026-04-19 23:17:21.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-04-19 23:17:21.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-04-19 23:17:21.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-04-19 23:17:21.249 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-04-19 23:17:21.249 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-04-19 23:17:21.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-19 23:17:21.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_002
+2026-04-19 23:17:21.263 DEBUG testcase.TC_Prod_001                     - 1: openBrowser("")
+2026-04-19 23:17:21.265 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-19 23:17:21.439 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-19 23:17:21.441 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-19 23:17:22.400 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c9f00b2ecb32e6a840f399f2790f9b95
+2026-04-19 23:17:22.401 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.163
+2026-04-19 23:17:22.401 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-19 23:17:22.402 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-19 23:17:22.402 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-19 23:17:22.420 DEBUG testcase.TC_Prod_001                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-19 23:17:23.068 DEBUG testcase.TC_Prod_001                     - 3: click(findTestObject("Page_STORE/a_itemc"))
+2026-04-19 23:17:33.267 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+2026-04-19 23:17:33.498 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [c9f00b2ecb32e6a840f399f2790f9b95, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62662}, goog:processID: 13560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62662/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:27319/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9f00b2ecb32e6a840f399f2790f9b95
+2026-04-19 23:17:33.642 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+2026-04-19 23:17:33.661 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+2026-04-19 23:17:33.669 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-19 23:17:33.717 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Prod_002
+2026-04-19 23:17:33.718 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-04-19 23:17:33.719 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-04-19 23:17:33.720 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-04-19 23:17:33.720 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-04-19 23:17:33.720 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-04-19 23:17:33.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-19 23:17:33.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_003
+2026-04-19 23:17:33.742 DEBUG testcase.TC_Prod_001                     - 1: openBrowser("")
+2026-04-19 23:17:33.743 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-19 23:17:33.931 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-19 23:17:33.933 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-19 23:17:35.693 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e0033645f69dcfff4952133c786d6d37
+2026-04-19 23:17:35.694 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.163
+2026-04-19 23:17:35.695 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-19 23:17:35.695 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-19 23:17:35.697 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-19 23:17:35.713 DEBUG testcase.TC_Prod_001                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-19 23:17:37.051 DEBUG testcase.TC_Prod_001                     - 3: click(findTestObject("Page_STORE/a_itemc"))
+2026-04-19 23:17:47.083 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+2026-04-19 23:17:47.311 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [e0033645f69dcfff4952133c786d6d37, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, goog:processID: 9328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:43675/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0033645f69dcfff4952133c786d6d37
+2026-04-19 23:17:47.459 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+2026-04-19 23:17:47.466 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+2026-04-19 23:17:47.472 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-19 23:17:47.526 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Prod_003
+2026-04-19 23:17:47.528 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-04-19 23:17:47.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-04-19 23:17:47.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-04-19 23:17:47.529 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-04-19 23:17:47.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-04-19 23:17:47.534 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-19 23:17:47.534 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_004
+2026-04-19 23:17:47.596 DEBUG testcase.TC_Prod_004                     - 1: openBrowser("")
+2026-04-19 23:17:47.598 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-19 23:17:47.769 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-19 23:17:47.771 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-19 23:17:48.536 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 975daaf16c86415d8748b1e835b19dd4
+2026-04-19 23:17:48.537 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.163
+2026-04-19 23:17:48.538 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-19 23:17:48.538 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-19 23:17:48.539 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-19 23:17:48.554 DEBUG testcase.TC_Prod_004                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-19 23:17:49.053 DEBUG testcase.TC_Prod_004                     - 3: click(findTestObject("Page_STORE/a_itemc"))
+2026-04-19 23:17:59.126 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_STORE/a_itemc'. Try using Self-healing.
+2026-04-19 23:17:59.361 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] invalid selector: Unable to locate an element with the xpath expression //*[@onclick = 'byCat('phone')'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@onclick = 'byCat('phone')']' is not a valid XPath expression.
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [975daaf16c86415d8748b1e835b19dd4, findElements {using=xpath, value=//*[@onclick = 'byCat('phone')']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\brand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52480}, goog:processID: 17552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52480/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:48216/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 975daaf16c86415d8748b1e835b19dd4
+2026-04-19 23:17:59.512 INFO  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] Screenshot: C:/Users/brand/git/Group_6_DemoBlaze_AutoTest/Reports/Self-healing/Object Repository/Page_STORE/a_itemc_SMART_LOCATOR.png
+2026-04-19 23:17:59.516 WARN  c.k.k.c.webui.model.WebUiElementFinder   - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_STORE/a_itemc' was broken. Propose an alternative one: 'internal:role=link[name="Phones"i]'.
+2026-04-19 23:17:59.523 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-04-19 23:17:59.565 DEBUG testcase.TC_Prod_004                     - 4: click(findTestObject("Page_STORE/img_card-img-top img-fluid"))
+2026-04-19 23:18:00.813 DEBUG testcase.TC_Prod_004                     - 5: click(findTestObject("Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d"))
+2026-04-19 23:18:01.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Prod_004
+2026-04-19 23:18:01.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-04-19 23:18:01.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-04-19 23:18:01.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-04-19 23:18:01.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-04-19 23:18:01.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-04-19 23:18:01.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-19 23:18:01.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_Prod_005
+2026-04-19 23:18:01.775 DEBUG testcase.TC_Prod_005                     - 1: openBrowser("")
+2026-04-19 23:18:01.778 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-04-19 23:18:02.006 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-04-19 23:18:02.008 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-04-19 23:18:03.010 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c277b978492671ab3588f57332c9b9a1
+2026-04-19 23:18:03.011 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.163
+2026-04-19 23:18:03.011 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-19 23:18:03.011 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-19 23:18:03.012 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-19 23:18:03.024 DEBUG testcase.TC_Prod_005                     - 2: navigateToUrl("https://www.demoblaze.com")
+2026-04-19 23:18:04.957 DEBUG testcase.TC_Prod_005                     - 3: click(findTestObject("Page_STORE/img_card-img-top img-fluid"))
+2026-04-19 23:18:06.399 DEBUG testcase.TC_Prod_005                     - 4: click(findTestObject("Page_STORE/img_img"))
+2026-04-19 23:18:07.267 DEBUG testcase.TC_Prod_005                     - 5: click(findTestObject("Page_STORE/h2_Samsung galaxy s6"))
+2026-04-19 23:18:07.551 DEBUG testcase.TC_Prod_005                     - 6: click(findTestObject("Page_STORE/h3_360 _includes tax"))
+2026-04-19 23:18:07.838 DEBUG testcase.TC_Prod_005                     - 7: click(findTestObject("Page_STORE/div_more-information"))
+2026-04-19 23:18:08.138 DEBUG testcase.TC_Prod_005                     - 8: click(findTestObject("Page_STORE/strong_Product description"))
+2026-04-19 23:18:08.433 DEBUG testcase.TC_Prod_005                     - 9: click(findTestObject("Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct"))
+2026-04-19 23:18:08.727 DEBUG testcase.TC_Prod_005                     - 10: click(findTestObject("Page_STORE/div_tbodyid"))
+2026-04-19 23:18:09.021 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_Prod_005
+2026-04-19 23:18:09.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-19 23:18:09.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_BrandonMair_Prod_Chrome
+2026-04-19 23:18:09.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

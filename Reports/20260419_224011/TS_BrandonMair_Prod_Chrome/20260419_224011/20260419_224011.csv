@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_BrandonMair_Prod_Chrome,,,,19-04-2026 22:40:16,19-04-2026 22:40:33,16.653s,FAILED
+,,,,,,,
+Test Cases/TC_Prod_001,,"Test Case for products category. This indicates that clicking the ""Phones"" category opens a page with only phones being displayed on the users' screen.",,19-04-2026 22:40:20,19-04-2026 22:40:21,0.769s,FAILED
+"openBrowser("""")",,,,19-04-2026 22:40:20,19-04-2026 22:40:21,0.755s,FAILED
+,,,,,,,
+Test Cases/TC_Prod_002,,"Test Case for products category. This indicates that clicking the ""Laptops"" category opens a page with only laptops being displayed on the users' screen.",,19-04-2026 22:40:23,19-04-2026 22:40:24,0.707s,FAILED
+"openBrowser("""")",,,,19-04-2026 22:40:23,19-04-2026 22:40:24,0.695s,FAILED
+,,,,,,,
+Test Cases/TC_Prod_003,,"Test Case for products category. This indicates that clicking the ""Monitors"" category opens a page with only monitors being displayed on the users' screen.",,19-04-2026 22:40:26,19-04-2026 22:40:27,0.755s,FAILED
+"openBrowser("""")",,,,19-04-2026 22:40:26,19-04-2026 22:40:27,0.745s,FAILED
+,,,,,,,
+Test Cases/TC_Prod_004,,"Test Case for products category. This indicates that clicking the image of any product will open that product page and display the detail page for said product. Tested with ""Samsung galaxy s6360"".",,19-04-2026 22:40:29,19-04-2026 22:40:30,0.739s,FAILED
+"openBrowser("""")",,,,19-04-2026 22:40:29,19-04-2026 22:40:30,0.729s,FAILED
+,,,,,,,
+Test Cases/TC_Prod_005,,"Test Case for products category. This test indicates that the name, price, and description of a product are displayed correctly. In this case, the user clicked the name, the price, the product description, and the body that the description of the product is placed in.",,19-04-2026 22:40:32,19-04-2026 22:40:33,0.714s,FAILED
+"openBrowser("""")",,,,19-04-2026 22:40:32,19-04-2026 22:40:33,0.702s,FAILED

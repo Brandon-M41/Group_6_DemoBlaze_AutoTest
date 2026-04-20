@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_BrandonMair_Prod_Edge,Edge Chromium 147.0.3912.72,,,19-04-2026 23:11:58,19-04-2026 23:13:00,1m - 1.651s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_001,Edge Chromium 147.0.3912.72,"Test Case for products category. This indicates that clicking the ""Phones"" category opens a page with only phones being displayed on the users' screen.",,19-04-2026 23:11:58,19-04-2026 23:12:13,14.881s,PASSED
+"openBrowser("""")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:11:58,19-04-2026 23:12:01,2.129s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:01,19-04-2026 23:12:01,0.545s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:01,19-04-2026 23:12:13,11.921s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_002,Edge Chromium 147.0.3912.72,"Objective:
+Verify that a user can open the phone category and view only the desired product - laptops.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click on ""Laptops"" category
+3. Verify product page loads with only desired product.
+
+Expected Result:
+Desired product (in this case, laptops) page displays.",,19-04-2026 23:12:13,19-04-2026 23:12:27,14.466s,PASSED
+"openBrowser("""")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:13,19-04-2026 23:12:16,3.286s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:16,19-04-2026 23:12:17,0.560s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:17,19-04-2026 23:12:27,10.608s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_003,Edge Chromium 147.0.3912.72,"Objective:
+Verify that a user can open the phone category and view only the desired product - monitors.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click on ""Monitors"" category
+3. Verify product page loads with only desired product.
+
+Expected Result:
+Desired product (in this case, monitors) page displays.",,19-04-2026 23:12:27,19-04-2026 23:12:40,12.092s,PASSED
+"openBrowser("""")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:27,19-04-2026 23:12:28,0.947s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:28,19-04-2026 23:12:29,0.638s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:29,19-04-2026 23:12:40,10.492s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_004,Edge Chromium 147.0.3912.72,"Objective:
+Verify that a user can open a product and view its details.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click a product image.
+3. Verify product details page loads
+
+Expected Result:
+Product details are displayed correctly.",,19-04-2026 23:12:40,19-04-2026 23:12:54,14.163s,PASSED
+"openBrowser("""")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:40,19-04-2026 23:12:41,0.978s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:41,19-04-2026 23:12:41,0.616s,PASSED
+"click(findTestObject(""Page_STORE/a_itemc""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:41,19-04-2026 23:12:52,10.530s,PASSED
+"click(findTestObject(""Page_STORE/img_card-img-top img-fluid""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:52,19-04-2026 23:12:53,1.039s,PASSED
+"click(findTestObject(""Page_STORE/div_Samsung galaxy s6360 _includes taxProduct d""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:53,19-04-2026 23:12:54,0.943s,PASSED
+,,,,,,,
+Test Cases/TC_Prod_005,Edge Chromium 147.0.3912.72,"Objective:
+Verify that a user can open a product and view its details.
+
+Preconditions:
+User is on DemoBlaze homepage.
+
+Steps:
+1. Open homepage
+2. Click a product
+3. Verify product details page loads
+
+Expected Result:
+Product details such as name, price, and description are displayed correctly.",,19-04-2026 23:12:54,19-04-2026 23:12:59,5.704s,PASSED
+"openBrowser("""")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:54,19-04-2026 23:12:55,0.960s,PASSED
+"navigateToUrl(""https://www.demoblaze.com"")",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:55,19-04-2026 23:12:55,0.586s,PASSED
+"click(findTestObject(""Page_STORE/img_card-img-top img-fluid""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:55,19-04-2026 23:12:57,1.575s,PASSED
+"click(findTestObject(""Page_STORE/img_img""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:57,19-04-2026 23:12:58,0.841s,PASSED
+"click(findTestObject(""Page_STORE/h2_Samsung galaxy s6""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:58,19-04-2026 23:12:58,0.291s,PASSED
+"click(findTestObject(""Page_STORE/h3_360 _includes tax""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:58,19-04-2026 23:12:58,0.288s,PASSED
+"click(findTestObject(""Page_STORE/div_more-information""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:58,19-04-2026 23:12:59,0.274s,PASSED
+"click(findTestObject(""Page_STORE/strong_Product description""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:59,19-04-2026 23:12:59,0.282s,PASSED
+"click(findTestObject(""Page_STORE/p_The Samsung Galaxy S6 is powered by 1.5GHz oct""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:59,19-04-2026 23:12:59,0.278s,PASSED
+"click(findTestObject(""Page_STORE/div_tbodyid""))",Edge Chromium 147.0.3912.72,,,19-04-2026 23:12:59,19-04-2026 23:12:59,0.281s,PASSED
